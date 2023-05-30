@@ -147,7 +147,7 @@
 			next =
 				imagesCollection[index - 1] ||
 				imagesCollection[imagesCollection.length - 1];
-			// next = imagesCollection[-1];
+
 			$(".lightboxImage").attr("src", $(next).attr("src"));
 		},
 		nextImage() {
